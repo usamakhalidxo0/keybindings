@@ -1,107 +1,14 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+alt+s",
-        "command": "workbench.action.files.saveAll"
-    },
-    {
-        "key": "alt+i",
-        "command":"cursorUp",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "alt+k",
-        "command":"cursorDown",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "alt+j",
-        "command": "cursorLeft",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "alt+l",
-        "command":"cursorRight",
-        "when": "textInputFocus"
-},
-    {
-        "key": "ctrl+alt+i",
-        "command": "editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "shift+alt+up",
         "command": "-editor.action.insertCursorAbove",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+k",
-        "command": "editor.action.insertCursorBelow",
         "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+down",
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+i",
-        "command":"cursorUpSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+alt+k",
-        "command":"cursorDownSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+alt+j",
-        "command":"cursorLeftSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+alt+l",
-        "command":"cursorRightSelect",
-        "when": "textInputFocus"
-    },
-    { 
-        "key": "ctrl+shift+alt+i",                
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly" 
-    },
-    { 
-        "key": "ctrl+shift+alt+k",              
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly" 
-    },
-    { 
-        "key": "alt+i",                    
-        "command": "showPrevParameterHint",
-        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible" 
-    },
-    { 
-        "key": "alt+k",                  
-        "command": "showNextParameterHint",
-        "when": "editorFocus && parameterHintsMultipleSignatures && parameterHintsVisible" 
-    },
-    { 
-        "key": "alt+i",                    
-        "command": "selectPrevSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus" 
-    },
-    {   "key": "alt+k",                  
-        "command": "selectNextSuggestion",
-        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus" 
-    },
-    {
-        "key": "alt+i",
-        "command":"workbench.action.quickOpenSelectPrevious",
-        "when": "inQuickOpen"
-    },
-    {
-        "key": "alt+k",
-        "command":"workbench.action.quickOpenSelectNext",
-        "when": "inQuickOpen"
     },
     {
         "key": "ctrl+shift+up",
@@ -991,10 +898,6 @@
         "when": "terminalFindFocused"
     },
     {
-        "key": "ctrl+t ctrl+q",
-        "command": "workbench.action.terminal.kill"
-    },
-    {
         "key": "alt+down",
         "command": "-workbench.action.terminal.focusNextPane",
         "when": "terminalFocus"
@@ -1080,10 +983,6 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+t ctrl+s",
-        "command": "workbench.action.terminal.split"
-    },
-    {
         "key": "ctrl+shift+5",
         "command": "-workbench.action.terminal.split",
         "when": "terminalFocus"
@@ -1123,28 +1022,12 @@
         "when": "terminalFindFocused || terminalFocus"
     },
     {
-        "key": "ctrl+t ctrl+t",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
         "key": "ctrl+`",
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+t ctrl+w",
-        "command": "workbench.action.quickOpenTerm"
-    },
-    {
-        "key": "ctrl+e ctrl+q",
-        "command": "workbench.action.quit"
-    },
-    {
         "key": "ctrl+q",
         "command": "-workbench.action.quit"
-    },
-    {
-        "key": "ctrl+t ctrl+a",
-        "command": "workbench.action.terminal.new"
     },
     {
         "key": "ctrl+shift+a",
@@ -1259,27 +1142,8 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+e ctrl+f",
-        "command": "workbench.files.action.focusFilesExplorer"
-    },
-    {
-        "key": "ctrl+n",
-        "command": "explorer.newFile",
-        "when": "filesExplorerFocus"
-    },
-    {
-        "key": "ctrl+shift+n",
-        "command": "explorer.newFolder",
-        "when": "filesExplorerFocus"
-    },
-    {
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
-    },
-    {
-        "key": "alt+k",
-        "command": "list.focusDown",
-        "when": "listFocus && !inputFocus"
     },
     {
         "key": "down",
@@ -1292,18 +1156,8 @@
         "when": "inKeybindings && inKeybindingsSearch"
     },
     {
-        "key": "alt+i",
-        "command": "list.focusUp",
-        "when": "listFocus && !inputFocus"
-    },
-    {
         "key": "up",
         "command": "-list.focusUp",
-        "when": "listFocus && !inputFocus"
-    },
-    {
-        "key": "alt+j",
-        "command": "list.collapse",
         "when": "listFocus && !inputFocus"
     },
     {
@@ -1322,31 +1176,13 @@
         "when": "inSearchEditor"
     },
     {
-        "key": "alt+l",
-        "command": "list.expand",
-        "when": "listFocus && !inputFocus"
-    },
-    {
         "key": "right",
         "command": "-list.expand",
         "when": "listFocus && !inputFocus"
     },
     {
-        "key": "ctrl+e ctrl+e",
-        "command":"workbench.action.focusFirstEditorGroup"
-    },
-    {
-        "key": "ctrl+e ctrl+w",
-        "command": "workbench.action.showAllEditors"
-    },
-    {
         "key": "ctrl+k ctrl+p",
         "command": "-workbench.action.showAllEditors"
-    },
-    {
-        "key": "ctrl+e ctrl+c",
-        "command": "editor.action.insertCursorAtEndOfEachLineSelected",
-        "when": "editorTextFocus"
     },
     {
         "key": "shift+alt+i",
